@@ -1,0 +1,10 @@
+/**/node_modules
+/**/build
+/**/fonts
+/**/logs
+/**/.sass-cache
+/**/.gulp-scss-cache
+/**npm-debug.log
+/**deploy
+/**/.vscode
+/**/*.prod*
