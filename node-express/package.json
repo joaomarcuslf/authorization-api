@@ -1,0 +1,44 @@
+{
+  "name": "authorization-express-api",
+  "version": "0.5.1",
+  "description": "Authorization Express API",
+  "main": "index.js",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "fs-extra": "^3.0.1",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node ./node_modules/mocha/bin/mocha -c --ui bdd ./specs/**/*.spec.js",
+    "bdd": "nodemon ./node_modules/mocha/bin/mocha -c --ui bdd ./specs/**/*.spec.js",
+    "lint": "./node_modules/.bin/eslint --fix ./app/**/*.js"
+  },
+  "author": "João Marcus Fernandes <jmarcusfernandes@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "ecma6",
+    "ecmascript2015",
+    "REST",
+    "API"
+  ]
+}
